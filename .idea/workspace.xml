@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719b3872-35c3-4ca4-aa7f-d4eb9fc4c3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/update/UpdateDataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/userentrance/UserEntrance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575660646338</updated>
       <workItem from="1575660651337" duration="7026000" />
-      <workItem from="1575668102058" duration="4655000" />
+      <workItem from="1575668102058" duration="5172000" />
     </task>
     <servers />
   </component>
