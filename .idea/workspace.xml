@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="719b3872-35c3-4ca4-aa7f-d4eb9fc4c3df" name="Default Changelist" comment="" />
+    <list default="true" id="719b3872-35c3-4ca4-aa7f-d4eb9fc4c3df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/OnlineStoreApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/ElectronicDeviceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/RadioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/TVDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/MagazineDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/ReadableDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/FormalShoeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/ShoeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/SportShoeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/ProductDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/ElectronicDeviceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/RadioDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/TVDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/MagazineDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/ReadableDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/FormalShoeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/ShoeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/SportShoeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,12 +35,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1Ucf8fYM6WNTxej27ibdlMtQUpS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -28,6 +55,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/model" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,6 +79,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="OnlineStoreApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.maktab32.java.projects.onlinestoreversion2.OnlineStoreApp" />
+      <module name="OnlineStoreVersion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.maktab32.java.projects.onlinestoreversion2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OnlineStoreApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -57,7 +109,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575660646338</updated>
-      <workItem from="1575660651337" duration="3909000" />
+      <workItem from="1575660651337" duration="7026000" />
+      <workItem from="1575668102058" duration="1614000" />
     </task>
     <servers />
   </component>
@@ -69,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
