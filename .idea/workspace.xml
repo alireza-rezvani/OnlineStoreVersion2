@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719b3872-35c3-4ca4-aa7f-d4eb9fc4c3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/OnlineStoreApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/ElectronicDeviceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/RadioDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/electronicdevices/TVDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/MagazineDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/readables/ReadableDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/FormalShoeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/ShoeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/products/shoes/SportShoeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/ProductDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/ElectronicDeviceDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/RadioDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/electronicdevices/TVDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/MagazineDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/readables/ReadableDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/FormalShoeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/ShoeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/products/shoes/SportShoeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/analyzechoices/Analyze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/analyzechoices/Categories.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575660646338</updated>
       <workItem from="1575660651337" duration="7026000" />
-      <workItem from="1575668102058" duration="1614000" />
+      <workItem from="1575668102058" duration="2231000" />
     </task>
     <servers />
   </component>
