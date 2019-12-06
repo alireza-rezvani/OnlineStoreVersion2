@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719b3872-35c3-4ca4-aa7f-d4eb9fc4c3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/analyzechoices/Analyze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/analyzechoices/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/AddressDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/CartDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/daoimpl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/projects/onlinestoreversion2/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575660646338</updated>
       <workItem from="1575660651337" duration="7026000" />
-      <workItem from="1575668102058" duration="2231000" />
+      <workItem from="1575668102058" duration="4088000" />
     </task>
     <servers />
   </component>
