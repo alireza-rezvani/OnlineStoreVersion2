@@ -44,6 +44,16 @@ public class CartDaoImpl implements CartDao {
     }
 
     public void editCart(int cartId, Cart cart) {
+
+        if (cart.getProductsCountList().size() == 0){
+            ArrayList<Integer> arrayList = new ArrayList<>();
+            for (int i = 1; i <= 5; i++){
+                arrayList.add(0);
+            }
+            cart.setProductsCountList(arrayList);
+            cart.setProductsIdList(arrayList);
+        }
+
         try {
             sql = "update carts set " +
                     "product1_id = ?, product1_count = ?, " +

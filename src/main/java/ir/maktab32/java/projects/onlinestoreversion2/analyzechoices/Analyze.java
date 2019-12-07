@@ -151,12 +151,12 @@ public class Analyze {
             Analyze.displaySubCategories(Integer.parseInt(mainCategoryChoice));
             subCategoryChoice = scanner.next();
             if (!Utilities.isNumeric(subCategoryChoice)
-                    || Integer.parseInt(subCategoryChoice) > categories[Integer.parseInt(mainCategoryChoice)].length -1
+                    || Integer.parseInt(subCategoryChoice) > categories[Integer.parseInt(mainCategoryChoice)-1].length -1
                     || Integer.parseInt(subCategoryChoice) < 1){
                 System.out.println("\t\u26a0 Invalid Input!\n");
             }
         }while (!Utilities.isNumeric(subCategoryChoice)
-                || Integer.parseInt(subCategoryChoice) > categories[Integer.parseInt(mainCategoryChoice)].length -1
+                || Integer.parseInt(subCategoryChoice) > categories[Integer.parseInt(mainCategoryChoice)-1].length -1
                 || Integer.parseInt(subCategoryChoice) < 1);
 
         Analyze.displayChosenSubcategoryItems(Integer.parseInt(mainCategoryChoice),Integer.parseInt(subCategoryChoice));

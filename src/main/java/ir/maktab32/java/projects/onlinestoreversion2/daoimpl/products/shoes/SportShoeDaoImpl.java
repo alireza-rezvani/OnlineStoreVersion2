@@ -17,7 +17,7 @@ public class SportShoeDaoImpl extends ShoeDaoImpl implements SportShoeDao {
             int shoeId = super.findAllShoes()
                     .get(super.findAllShoes().size()-1).getShoeId();
 
-            sql = "insert into sport_shoes(usage, shoe_id) values(?,?)";
+            sql = "insert into sport_shoes(usage_case, shoe_id) values(?,?)";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, sportShoe.getUsage());
             preparedStatement.setInt(2, shoeId);
@@ -48,7 +48,7 @@ public class SportShoeDaoImpl extends ShoeDaoImpl implements SportShoeDao {
             int shoeId = findSportShoeById(sportShoeId).getShoeId();
             super.editShoe(shoeId,sportShoe);
 
-            sql = "update sport_shoes set usage = ? where id = " + sportShoeId;
+            sql = "update sport_shoes set usage_case = ? where id = " + sportShoeId;
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, sportShoe.getUsage());
             preparedStatement.execute();
@@ -70,7 +70,7 @@ public class SportShoeDaoImpl extends ShoeDaoImpl implements SportShoeDao {
             ResultSet resultSet = preparedStatement.executeQuery();
 
             while (resultSet.next()) {
-                usage = resultSet.getString("usage");
+                usage = resultSet.getString("usage_case");
                 shoeId = resultSet.getInt("shoe_id");
             }
 
@@ -116,7 +116,7 @@ public class SportShoeDaoImpl extends ShoeDaoImpl implements SportShoeDao {
 
             while (resultSet.next()) {
                 sportShoeId = resultSet.getInt("id");
-                usage = resultSet.getString("usage");
+                usage = resultSet.getString("usage_case");
                 shoeId = resultSet.getInt("shoe_id");
                 shoe = super.findShoeById(shoeId);
                 title = shoe.getTitle();
