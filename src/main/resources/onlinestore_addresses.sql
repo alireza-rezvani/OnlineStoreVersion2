@@ -1,0 +1,1 @@
+INSERT INTO onlinestore.addresses (id, province, city, street, zipcode) VALUES (11, 'Tehran', 'Tehran', 'Ferdowsi', '3243333333');

@@ -1,0 +1,1 @@
+INSERT INTO onlinestore.users (username, password, firstname, lastname, mobilenumber, email, address_id, cart_id) VALUES ('reza555', '123456', 'Reza', 'Rezayi', '09120000000', 'rezayi3323h@gmail.com', 11, 12);

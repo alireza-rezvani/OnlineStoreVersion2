@@ -1,0 +1,10 @@
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (19, 980, 'JPublish', 55);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (20, 850, 'CPublish', 56);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (21, 732, 'MPublish', 57);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (22, 900, 'CPublish', 58);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (23, 453, 'FPublish', 59);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (24, 102, 'Publisher1', 60);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (25, 100, 'Publisher2', 61);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (26, 112, 'Publisher1', 62);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (27, 123, 'Publisher3', 63);
+INSERT INTO onlinestore.readables (id, pages, publisher, product_id) VALUES (28, 115, 'Publisher1', 64);

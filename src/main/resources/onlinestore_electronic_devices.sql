@@ -1,0 +1,10 @@
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (10, '12V ', 45);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (11, '12V ', 46);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (12, '220V', 47);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (13, '220V', 48);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (14, '220V', 49);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (15, '220V', 50);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (16, '220V', 51);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (17, '220V', 52);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (18, '220V', 53);
+INSERT INTO onlinestore.electronic_devices (id, voltage, product_id) VALUES (19, '220V', 54);
